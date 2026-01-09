@@ -10,6 +10,15 @@ void setup() {
 draw = function(){
  
   background(255,255,255,0);
+
+  //Tristan
+  fill (255,255,0)
+  triangle (71,135, 60,196, 89,201);
+
+
+//Ethan
+fill(255,255,0)
+rect(405,237);
   
 
 
