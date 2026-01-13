@@ -4,7 +4,9 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var jamariSize = 150;
+var ethanSize = 40;
+var sunSize = 40;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -17,8 +19,20 @@ draw = function(){
 
 
 //Ethan
+fill(255,0,0)
+rect(319,236,ethanSize,ethanSize);
+
+//sunSize
 fill(255,255,0)
-rect(405,237);
+ellipse(316,11,sunSize,sunSize);
+
+//Jamari
+fill(0,0,0)
+ellipse(183,313, jamariSize, jamariSize);
+
+
+
+jamariSize = jamariSize + 3;
   
 
 
