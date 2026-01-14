@@ -27,14 +27,14 @@ fill(255,255,0)
 ellipse(316,11,sunSize,sunSize);
 
 //Jamari
-fill(0,0,0)
+fill(139,32,179)
 ellipse(183,313, jamariSize, jamariSize);
 
 
 
 jamariSize = jamariSize + 3;
-  
-
+  if(jamariSize > 800)
+jamariSize = 0
 
 
 
